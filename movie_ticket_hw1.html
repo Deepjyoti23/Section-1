@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking_details</title>
+    <link rel="stylesheet" href="favicon (1).ico" type="image/x-icon">
+</head>
+
+<body>
+    <form>
+        <h1> The Big Screen </h1>
+        <hr>
+        <img src="https://img.ticketnew.com/tn/movie/25716/7.jpg?3607549&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80"
+            alt="Pathan">
+        <img src="https://img.ticketnew.com/tn/movie/26773/7.jpg?3600199&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80"
+            alt="Shehezada">
+        <img src="https://img.ticketnew.com/tn/movie/26819/7.jpg?5131724&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80"
+            alt="">
+        <img src="https://img.ticketnew.com/tn/movie/26234/7.jpg?7688555&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80"
+            alt="">
+        <hr>
+        <h3>Book Tickets</h3>
+        <label>Show</label>
+        <select>
+            <option>Pathan</option>
+            <option>Shehzada</option>
+            <option>Ant-Man-Wasp QUANTUMANIA </option>
+            <option>Avatar:The Way Of Water</option>
+        </select>
+        <br><br>
+        <label>Movie place</label>
+        <select>
+            <option>Cinepolis One Awadh Center Mall</option>
+            <option>INOX Megaplex Phoenix Plassio Mall</option>
+            <option>INOX Megaplex Emerald </option>
+            <option>PVR Phoenix united Mall</option>
+            <option>PVR Saharaganj Mall</option>
+
+        </select>
+        <br><br>
+        <label>Date</label>
+        <input type="date">
+        <label>Time</label>
+        <select>
+            <option>11:10</option>
+            <option>01:10</option>
+            <option>04:00</option>
+            <option>07:15</option>
+            <option>10:55</option>
+
+        </select>
+        <br><br>
+        <label>Email</label>
+        <input type="email" required placeholder="abc@gmail.com">
+        <br><br>
+        <label>Contact</label>
+        <input type="number" required>
+        <br><br>
+        <label>Number of Seats</label>
+        <input type="number">
+        <br><br>
+        <label>Adults</label>
+        <input type="text" list="Adults">
+
+        <datalist id="Adults">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+
+        </datalist>
+        <label>Children</label>
+        <input type="text" list="Children">
+
+        <datalist id="Children">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+
+        </datalist>
+        <br><br>
+
+        <input type="checkbox">Accept terms and conditions
+        <br><br>
+
+        <details>
+            <summary>Terms and Conditions</summary>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis fugit quasi quas
+                cupiditate officia veniam dolorum alias quaerat fugiat, obcaecati illum odio natus, numquam facilis
+                et assumenda rem nesciunt!
+            </p>
+        </details>
+        <br><br>
+
+
+        <label>Payment Mode</label>
+        <input type="radio" name="Payment Mode">Net Banking
+        <input type="radio" name="Payment Mode">Card
+        <input type="radio" name="Payment Mode">UPI
+        <input type="radio" name="Payment Mode">Mobile Wallets
+        <br><br>
+        <button>Make Payment</button>
+    </form>
+</body>
+
+</html>

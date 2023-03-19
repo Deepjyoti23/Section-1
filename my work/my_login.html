@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+             /* border: 1px solid black;*/  
+            padding: 30px;
+            box-sizing: border-box;
+            width: 25%;
+            background-color: white;
+            box-shadow: 3px 4px 5px 2px rgba(0, 0, 0, 0.344),3px -4px 5px 2px rgba(0, 0, 0, 0.344);
+        }
+       h1{
+            text-align: center;
+        }
+        
+        .box1{
+            display: block;
+            padding: 10px;
+            /* /* align-items: center;  */
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: none; */
+            height: 100vh;
+            margin-bottom: 20px;
+            /* background-image: url(https://static.vecteezy.com/system/resources/previews/013/037/004/original/colorful-geometric-banner-background-minimal-cover-template-design-for-web-modern-abstract-background-with-geometric-shapes-and-lines-eps10-free-vector.jpg);
+            backdrop-filter: blur(5px);
+            background-size: cover; */
+        }
+        .btn{
+            background-color: crimson;
+            display: block;
+            /* justify-content: center; 
+            /* align-items: center;*/ 
+            padding: 10px;
+            /* box-sizing: border-box;*/ 
+            border-radius: 5px;
+            border: none;
+         
+            color: #fff;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            font-weight: bold;
+        }
+        .link1{
+            display: block;
+            text-align: right;
+            color: crimson;
+            font-size: large;
+        }
+        .link2 a{
+            color: crimson;
+        }
+        .link2{
+            display: block;
+            font-size: large;
+            text-align: center;
+        }
+        .info{
+            display: block;
+            text-align: center;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <form>
+            <h1>Sign In</h1>
+            <input class="box1" type="email" placeholder="Email Address">
+            <input class="box1" type="password" placeholder="Password">
+            <a class ="link1">Forgot Password</a>
+            <Button class="btn">Submit</Button>
+            <span class="link2">Not Registered Yet?
+
+                <a href="">Create Account</a>
+            </span>
+            <p class="info">Terms and Conditions</p>
+        </form>
+    </div>
+</body>
+
+</html>
