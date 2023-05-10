@@ -20,7 +20,7 @@ console.log(movies.slice(-5,-1));
 console.log([...movies,'BARFI']);
 //New array.
 // movies=[...movies,'BARFI']
-console.log(['BATMAN',...movies]);            
+console.log(['BATMAN',...movies]);             
 console.log(movies);
 console.log([...movies.slice(0,4),'100Days',...movies.slice(4)]);
 
