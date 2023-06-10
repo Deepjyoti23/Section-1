@@ -19,6 +19,7 @@ console.log(movies.slice(-5,-1));
 //[...]-spread operator
 console.log([...movies,'BARFI']);
 //New array.
+
 // movies=[...movies,'BARFI']
 console.log(['BATMAN',...movies]);             
 console.log(movies);
